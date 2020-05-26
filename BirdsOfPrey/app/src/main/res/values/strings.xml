@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BirdsOfPrey</string>
+    <string name="RED">RED</string>
+    <string name="BLUE">BLUE</string>
+    <string name="YELLOW">YELLOW</string>
+    <string name="GREEN">GREEN</string>
+    <string name="COUNTER">COUNTER</string>
+    <string name="ZERO">0</string>
+</resources>
