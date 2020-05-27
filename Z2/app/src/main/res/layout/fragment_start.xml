@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/startFrameLayout"
+    android:background="@color/RED"
+    android:orientation="vertical"
+    tools:context=".fragments.FragmentStart">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@color/WHITE"
+        tools:ignore="MissingConstraints"> <!--ovo je ALT+ENTER FIX -->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ADD"
+            android:id="@+id/btnAddNewPerson" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/EXIT"
+            android:id="@+id/btnExit"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFamousPersons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/WHITE"/>
+
+    </LinearLayout>
+
+</FrameLayout>

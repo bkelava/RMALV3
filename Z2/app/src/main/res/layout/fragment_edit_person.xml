@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frameEditPersonLayout"
+    tools:context=".fragments.FragmentEditPerson">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PersonsAdderActivity"
+        android:background="@color/RED"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etEditName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EDIT NAME"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etEditLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EDIT LASTNAME"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etEditName" />
+
+        <EditText
+            android:id="@+id/etEditDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EDIT BIRTHDAY"
+            app:layout_constraintTop_toBottomOf="@+id/etEditLastName"
+            tools:layout_editor_absoluteX="32dp" />
+
+        <EditText
+            android:id="@+id/etEditInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EDIT DESCRIPTION"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/etEditDate"/>
+
+        <EditText
+            android:id="@+id/etEditImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EDIT IMAGE (WEB LINK)"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/etEditInfo"/>
+
+        <EditText
+            android:id="@+id/etEditQuotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EDIT QUOTES - DIVIDED WITH ';' "
+            android:layout_marginBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/etEditImage"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/NOTE"
+            android:textColor="@color/BLACK"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etEditQuotes" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/SAVE"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAdd"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnBackToStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:text="@string/BTNBACK"
+            app:layout_constraintBottom_toTopOf="@+id/btnSave"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

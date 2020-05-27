@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="ADD">ADD</string>
+    <string name="EXIT">EXIT</string>
+    <string name="NAMELASTNAME">NAME LAST-NAME</string>
+    <string name="SAMPLE">SAMPLE TEXT</string>
+    <string name="BACK">BACK</string>
+    <string name="DELETE">DELETE</string>
+    <string name="EDIT">EDIT</string>
+    <string name="SAVE">SAVE</string>
+    <string name="BTNBACK">BACK TO MAIN</string>
+
+    <string name="NOTE">OLD CONTED WILL BE REMOVE AFTER EDITING AND IMAGE WILL BE SET TO DEFAULT IF THERE IS NO VALID INPUT</string>
+
+    <string-array name="DennisRitchie">
+        <item>Im not a person who particularly had heros when growing up</item>
+        <item>I fix things now and then, more often tweak HTML and make scripts to do things</item>
+        <item>Over the past several years, Ive been more in a managerial role</item>
+    </string-array>
+
+    <string-array name="MarkZ">
+        <item>The thing that we are trying to do at facebook is just help people connect and communicate more efficiently</item>
+        <item>We are running the company to serve more people</item>
+        <item>The question isnt What do we want to know about people, Its, What do people want to tell about themselves</item>
+    </string-array>
+
+    <string-array name="Law">
+        <item>It’s Microsoft versus mankind, with Microsoft having only a slight lead</item>
+        <item>If an innovative piece of software comes along, Microsoft copies it and makes it part of Windows. This is not innovation; this is the end of innovation</item>
+        <item>Sometimes there is no happy choice, only one less griveous than the others</item>
+    </string-array>
+
+    <string name="nameDENIS">Dennis Ritchier</string>
+    <string name="imageDENIS">https://upload.wikimedia.org/wikipedia/commons/2/23/Dennis_Ritchie_2011.jpg</string>
+    <string name="brithDENIS">September 9, 1941 – c. October 12, 2011</string>
+    <string name="infoDENIS">Dennis MacAlistair Ritchie was an American computer scientist. He created the C programming language and, with long-time colleague Ken Thompson, the Unix operating system and B programming language</string>
+
+    <string name="nameMark">Mark Zuckerburg</string>
+    <string name="imageMark">https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mark_Zuckerberg_F8_2018_Keynote_%28cropped_2%29.jpg/800px-Mark_Zuckerberg_F8_2018_Keynote_%28cropped_2%29.jpg</string>
+    <string name="birthMark">May 14, 1984</string>
+    <string name="infoMark">Mark Elliot Zuckerberg is an American internet entrepreneur and philanthropist. He is known for co-founding Facebook, Inc.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
